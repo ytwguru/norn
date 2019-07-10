@@ -1,6 +1,6 @@
 {
-  "name": "vantage-proxy",
-  "description": "Vantage Proxy",
+  "name": "norn",
+  "description": "Norn endpoints",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
