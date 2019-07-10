@@ -69,6 +69,7 @@ public
 yarn-error.log
 package-lock.json
 test.js
+function.zip
 
 src/*.css
 src/*.css.map

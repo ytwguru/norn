@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "deploy": "zip -r function.zip . -x *.git* -x *.idea* -x .env && aws --profile eb-cli lambda update-function-code --function-name CreateNornCustomer --zip-file fileb://function.zip"
   },
   "engines": {
     "node": ">=10"
