@@ -1,0 +1,16 @@
+{
+  "name": "vantage-proxy",
+  "description": "Vantage Proxy",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "stripe": "7.4.0"
+  }
+}
